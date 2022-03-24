@@ -96,28 +96,25 @@ int *insertElements(int *size)
 {
     int *array = NULL;
     *size = 0;
-    while(1)
+
+    while (1)
     {
         int input = -1;
-        printf("Inserisci un intero oppure '-1' per terminare: ");
+        printf("\n Inserire un intero oppure -1 pre terminare: ");
         scanf("%d", &input);
         if (input == -1)
         {
             break;
         }
-
         *size += 1;
         array = realloc(array, *size * sizeof(int));
         if (array == NULL)
         {
-            printf("\n Errore di allocazione");
+            printf("\nErrore di allocazione");
             *size = 0;
             return array;
         }
-
+        array[*size - 1] = input;
     }
-
+    return array;
 }
-
-
-
