@@ -69,7 +69,7 @@ stampino tutti gli elementi dell’array.
 
 
 // prototipo funzione
-int *insertElements(int *size);
+/*int *insertElements(int *size);
 
 int main()
 {
@@ -117,4 +117,8 @@ int *insertElements(int *size)
         array[*size - 1] = input;
     }
     return array;
-}
+}*/
+
+
+
+
