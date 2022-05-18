@@ -1,0 +1,78 @@
+1 BGP è un protocollo di routing di tipo:
+	a.Interdominio
+	b.Intradominio
+	c.Distance-vector
+	d.Path-vector
+	e.Link-state
+
+2. Si descriva il funzionamento del protcollo RIP:
+	a.In quale strato della rete opera e che funzionalità offre?
+	b.Quali sono gli elementi della rete coinvolti nello scamnio di messaggi e quali è il loro ruolo?
+	c. Come funziona in dettaglio il protocollo?
+	e. Qualì il formato dei messaggi scambiati?
+	f. Quali sono i problemi che devono essere affrontati per la sua applicazioni in sistemi reali e quali sono le soluzioni proposte/adottate per risolvere questi problemi?
+
+3. Quali delle seguenti affermazioni è vera riguardo allo sviluppo di protocolli di medium
+access control per una wireless LAN?
+	a. Si può fare carrier sense
+	b. Si può implementare collision detection
+	c. Bisogna affrontare il problema dell’hidden terminal
+4. Si descrivano le varie classi di protocolli MAC, spiegando quali criteri desiderabili per un protocollo di medium access control soddisfino. Si descrivano e mettano a confronto i diversi protocolli MAC ad accesso casuali visti a lezione. 
+
+5. Si descriva il funzionamento del protocollo ARP (a cosa serve, dettagli del protocollo e logica di funzionamento)
+
+6. Si descriva a cosa servono,come sono organizzate e come funziona le content distribution networks, discutendo le diverse possibili loro implementazioni nel dettaglio.
+
+7. Nel protocollo MAC usato da Ethernet cosa succede quando si verifica una collisione?
+	a. si aspetta un tempo scelto casualmente in un intervallo fisso e si ritrasmette.
+	b. si sceglie casualmente un tempo in un intervallo con dimensione dipendente dal numero di
+ritrasmissione della trama e si ritrasmette.
+	c. si lancia una moneta e con probabilità P e si ritrasmette
+	d. le collisioni non possono avvenire
+
+8. Quale tra i seguenti protocolli di MEDIUM ACCESS CONTROL raggiunge una migliore utilizzazione del
+canale?
+A) ALOHA
+B) CSMA
+C) SLOTTED ALOHA
+D) Raggiungono tutti la stessa utilizzazione
+
+9. Per instradare un pacchetto tra Host X dell'Autonomous System C e l'Host Y dell'Autonomous System
+B, quale/quali protocollo di routing sono coinvolti?
+A) RIP o OSPF
+B) RIP o OSPF o IGRP all'interno di ciascuno dei due AS, OSPF sul "backbone" che interconnette gli
+Autonomous System.
+C) RIP o OSPF o IGRP all'interno di ciascuno dei due AS, BGP sulla tratta che interconnette gli Autonomous
+System.
+D) Nessuna delle tre
+
+10. Si descriva come funziona il protocollo di routing OSPF (algoritmo usato, organizzazione della rete,
+metriche usate per la scelta dei percorsi, caratteristiche e dettagli del protocollo).
+
+11. Si descriva l'architettura, i componenti ed i protocolli dello standard WiFi (IEEE 802.11)
+
+12. Un protocollo di routing:
+	a. Definisce come interagiscono i router per trovare le rotte tra i nodi della rete
+	b. Trasferisce i pacchetti dall'inpute di un router all'output del router appropriato
+	c. Gestisce l'accesso a un canale condiviso
+	d. E' implementato sui sistemi terminali (host)
+
+13. In una LAN wireless:
+	a. Si può verificare il problema dell'hidden terminal (terminale nascosto)
+	b. SI può eseguire carrier sense
+	c. SI può eseguire collision detection
+	d. E' necessario l'invio di un ACK per confermare la corretta ricezione di un frame
+
+14. Quale protocollo implementa l'algoritmo di routing basato su vettore di distanza?
+
+15. Quale equazione viene applicata per aggiornare il vettore di distanza? 
+
+16. Il protocollo di accesso al mezzo CSMA/CD richiede che ogni stazione rilevi che il canale sia libero prima di iniziare a trasmettere. 
+	a. Questo metodo elimina del tutto le collisioni
+	b. Spiegare cosa si intende per Collision Detection
+
+17. Che tipo di protocollo di routing è BGP (intra p inter-autonomus system routing)? Distance vector/Link State/Policy Based/Path Based?
+
+18. Si descriva in dettaglio il protocollo RIP? (dove viene usato) Qual'è l'algoritmo per il calcolo dei cammini minimi? Quali  la metrica? Quale il funzionamento del protocollo in dettaglio? Quali i problemi del funzionamento del protocollo e come sono risolti in pratica?
+
+
