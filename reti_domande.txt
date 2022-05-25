@@ -9,7 +9,7 @@
 	a.In quale strato della rete opera e che funzionalità offre?
 	b.Quali sono gli elementi della rete coinvolti nello scamnio di messaggi e quali è il loro ruolo?
 	c. Come funziona in dettaglio il protocollo?
-	e. Qualì il formato dei messaggi scambiati?
+	e. Qual'è il formato dei messaggi scambiati?
 	f. Quali sono i problemi che devono essere affrontati per la sua applicazioni in sistemi reali e quali sono le soluzioni proposte/adottate per risolvere questi problemi?
 
 3. Quali delle seguenti affermazioni è vera riguardo allo sviluppo di protocolli di medium
@@ -26,7 +26,7 @@ access control per una wireless LAN?
 7. Nel protocollo MAC usato da Ethernet cosa succede quando si verifica una collisione?
 	a. si aspetta un tempo scelto casualmente in un intervallo fisso e si ritrasmette.
 	b. si sceglie casualmente un tempo in un intervallo con dimensione dipendente dal numero di
-ritrasmissione della trama e si ritrasmette.
+		ritrasmissione della trama e si ritrasmette.
 	c. si lancia una moneta e con probabilità P e si ritrasmette
 	d. le collisioni non possono avvenire
 
@@ -72,7 +72,5 @@ metriche usate per la scelta dei percorsi, caratteristiche e dettagli del protoc
 	b. Spiegare cosa si intende per Collision Detection
 
 17. Che tipo di protocollo di routing è BGP (intra p inter-autonomus system routing)? Distance vector/Link State/Policy Based/Path Based?
-
-18. Si descriva in dettaglio il protocollo RIP? (dove viene usato) Qual'è l'algoritmo per il calcolo dei cammini minimi? Quali  la metrica? Quale il funzionamento del protocollo in dettaglio? Quali i problemi del funzionamento del protocollo e come sono risolti in pratica?
 
 
